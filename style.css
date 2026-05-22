@@ -566,3 +566,32 @@ a {
 }
 
 /* CTA Specific styles */
+.cta-sub-note {
+    font-size: 0.8rem;
+    color: var(--primary-dark);
+    display: inline-block;
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    background: #111;
+    color: #666;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .flex-row, .flex-row.reverse { flex-direction: column; gap: 40px; }
+    .grid-3 { grid-template-columns: 1fr; }
+    .hero-title { font-size: 2.2rem; }
+    .section-title { font-size: 1.8rem; }
+    .day { padding: 30px 20px; }
+    .day li { flex-direction: column; gap: 5px; margin-bottom: 20px;}
+    .cta-box { padding: 40px 20px; }
+    .logo { font-size: 1rem; }
+}
