@@ -595,4 +595,24 @@ a {
     .day li { flex-direction: column; gap: 5px; margin-bottom: 20px;}
     .cta-box { padding: 40px 20px; }
     .logo { font-size: 1rem; }
+    
+    /* スマホ用価格セクションの最適化 */
+    .cta-details .price {
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+    .cta-details .price-badge {
+        font-size: 0.75rem;
+        padding: 4px 12px;
+    }
+    .cta-details .price-label {
+        font-size: 0.9rem;
+    }
+    .cta-details .price-tax {
+        font-size: 0.8rem;
+    }
 }
